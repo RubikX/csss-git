@@ -13,7 +13,7 @@ Eg. Input: [1, 2, 3, 4, 5, 6, 7, 8]
     Output: 8
 '''
 def amountInArray(array):
-
+    return(len(array))
 
 
 '''
@@ -42,7 +42,6 @@ Eg. Input: [1, 2, 3, 4, 5, 6, 7, 8]
     Output:[8, 2, 1, 5, 7, 3, 4, 6]
 '''
 def shuffleArray(array):
-
 
 
 

@@ -23,8 +23,11 @@ Eg. Input: [1, 2, 3, 4, 5, 6, 7, 8]
     Output:
 '''
 def sumOfArray(array):
+    sum = 0
+    for integers in range(len(array)):
+        sum += array[integers]
+    return sum
     
-
 '''
 Purpose of the function:
 Given a array of integers, return the array in reverse order.
